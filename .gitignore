@@ -1,0 +1,26 @@
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# datasets
+*.parquet
+*.csv
+*.jsonl
+*.txt
+data/
+datasets/
+
+# model checkpoints
+*.pt
+*.bin
+*.ckpt
+
+# logs
+logs/
