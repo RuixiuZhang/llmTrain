@@ -77,29 +77,11 @@ Tokenizer type:
 
 Train a small transformer language model:
 
-~~~
-python model/train_model.py
-~~~
-
-The model learns to predict the next token using **autoregressive training**.
+the basic training scipt is uploaded as train.py, yet the data needs to be preprocessed into tokenized .pt format.
+I trained it on autoDL's NV A800 GPU, and the model is uploaded to https://huggingface.co/Hippocrene/MiniLLM-0.1B
 
 ---
 
-# Requirements
-
-Recommended:
-
-~~~
-Python 3.10
-~~~
-
-Dependencies are listed in:
-
-~~~
-requirements.txt
-~~~
-
----
 
 # Notes
 
